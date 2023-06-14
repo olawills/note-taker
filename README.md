@@ -19,7 +19,7 @@
 ```
 lib
 ├───app (route handler)
-│   
+│   N
 services (All the models, firebase and user authentication methods)
 │   ├───firebase
 │   ├───model
