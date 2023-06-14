@@ -1,4 +1,4 @@
-# Welcome To flutter Note Taker
+# Welcome To Flutter Note Taker
 
 <p> A Flutter Notes Taker</p>
 <p> Uses Firebase to store and authenticate users</p>
