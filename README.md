@@ -3,6 +3,9 @@
 <p> A Flutter Notes Taker</p>
 <p> Uses Firebase to store and authenticate users</p>
 
+## App Build can be found at
+- apk/app-realease.apk
+
 ## Features
 
 - Sign in with email/password
