@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "343616982546",
+    "project_id": "flutter-note-taker-b2804",
+    "storage_bucket": "flutter-note-taker-b2804.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343616982546:android:4eeee044f0741624d392cb",
+        "android_client_info": {
+          "package_name": "com.example.note_taker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343616982546-p7okb6t0jjgs6b1cnbem2mvqcktidphd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBg5Th7VmlsWlF7OsD-Qdr2STFGmH2dww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343616982546-p7okb6t0jjgs6b1cnbem2mvqcktidphd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
