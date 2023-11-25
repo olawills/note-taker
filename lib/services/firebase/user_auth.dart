@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 import 'package:note_taker/services/model/notes_model.dart';
@@ -75,8 +76,8 @@ class UserAuthentication {
     };
     await docRef
         .update(data)
-        .whenComplete(() => print('Note updated'))
-        .catchError((e) => print(e));
+        .whenComplete(() => debugPrint('Note updated'))
+        .catchError((e) => debugPrint(e));
   }
 
   Future<void> deleteNotesFromFirebase(String noteId) async {
@@ -87,8 +88,8 @@ class UserAuthentication {
         .doc(noteId);
     await docRef
         .delete()
-        .whenComplete(() => print('Deleted from Database'))
-        .catchError((e) => print(e));
+        .whenComplete(() => debugPrint('Deleted from Database'))
+        .catchError((e) => debugPrint(e));
   }
 
   /// refresh user notes through this function
